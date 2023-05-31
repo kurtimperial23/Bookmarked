@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bookmarked</string>
+
+    <string-array name="security_questions">
+        <item>What was the last name of your first partner?</item>
+        <item>Where did you go for your first vacation?</item>
+        <item>What is the name of your first pet?</item>
+        <item>What color was your first car?</item>
+        <item>What subject were you best at in elementary school?</item>
+        <item>What was the name of your childhood best friend?</item>
+        <item>Where did you first work at?</item>
+        <item>What school did you attend for junior high?</item>
+        <item>What is the first name of the person that you first kissed?</item>
+        <item>What was the telephone number of your childhood home?</item>
+    </string-array>
+</resources>

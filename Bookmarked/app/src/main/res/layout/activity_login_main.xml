@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393E46"
+    tools:context="com.example.bookmarked.LoginMain">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="409dp"
+        android:layout_height="383dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/loginimage2_visual" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:srcCompat="@drawable/loginimage1_visual" />
+
+    <EditText
+        android:id="@+id/emailLogin_input"
+        android:layout_width="286dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="367dp"
+        android:ems="10"
+        android:hint="User"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordLogin_input"
+        android:layout_width="286dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="411dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="302dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/forgotpassLogin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="270dp"
+        android:text="Forgot password?"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/siginLogin_button"
+        android:layout_width="284dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="183dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#E6E6E6"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/signinlogin_visual" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="151dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="561dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="145dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/orlogin_visual" />
+
+    <ImageButton
+        android:id="@+id/googleLogin_button"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="598dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="71dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#E6E6E6"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/googlelogin_visual" />
+
+    <ImageButton
+        android:id="@+id/facebookLogin_button"
+        android:layout_width="133dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="598dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="71dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#E6E6E6"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/facebooklogin_visual" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="675dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="37dp"
+        android:text="Don't have an account yet?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/signupLogin_button"
+        android:layout_width="82dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="253dp"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="37dp"
+        android:foregroundTint="#3282B8"
+        android:text="SIGN UP!"
+        android:textColor="#3282B8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
